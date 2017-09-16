@@ -37,6 +37,7 @@ extension UIDevice {
         case "iPod3,1":                                 model = "iPod Touch 3G"
         case "iPod4,1":                                 model = "iPod Touch 4G"
         case "iPod5,1":                                 model = "iPod Touch 5G"
+        case "iPod7,1":                                 model = "iPod Touch 6G"
 
         case "iPhone1,1":                               model = "iPhone 2G"
         case "iPhone1,2":                               model = "iPhone 3G"
@@ -67,6 +68,7 @@ extension UIDevice {
         case "iPad4,4", "iPad4,5", "iPad4,6":           model = "iPad Mini 2"
         case "iPad4,7", "iPad4,8", "iPad4,9":           model = "iPad Mini 3"
         case "iPad5,1", "iPad5,2":                      model = "iPad Mini 4"
+        case "iPad6,11", "iPad6,12":                    model = "iPad 2017"
 
 
         case "iPad6,3", "iPad6,4":                      model = "iPad Pro 9.7"
