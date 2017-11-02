@@ -39,6 +39,7 @@ extension UIDevice {
         case "iPod5,1":                                 model = "iPod Touch 5G"
         case "iPod7,1":                                 model = "iPod Touch 6G"
 
+
         case "iPhone1,1":                               model = "iPhone 2G"
         case "iPhone1,2":                               model = "iPhone 3G"
         case "iPhone2,1":                               model = "iPhone 3GS"
@@ -54,7 +55,9 @@ extension UIDevice {
         case "iPhone8,4":                               model = "iPhone SE"
         case "iPhone9,1", "iPhone9,3":                  model = "iPhone 7"
         case "iPhone9,2", "iPhone9,4":                  model = "iPhone 7 Plus"
-
+        case "iPhone10,1", "iPhone10,4":                model = "iPhone 8"
+        case "iPhone10,2", "iPhone10,5":                model = "iPhone 8 Plus"
+        case "iPhone10,3", "iPhone10,6":                model = "iPhone X"
 
 
         case "iPad1,1":                                 model = "iPad 1"
@@ -63,17 +66,16 @@ extension UIDevice {
         case "iPad3,4", "iPad3,5", "iPad3,6":           model = "iPad 4"
         case "iPad4,1", "iPad4,2", "iPad4,3":           model = "iPad Air"
         case "iPad5,3", "iPad5,4":                      model = "iPad Air 2"
-        case "iPad6,11", "iPad6,12":                    model = "iPad 5"
+        case "iPad6,11", "iPad6,12":                    model = "iPad 2017"
+
         case "iPad2,5", "iPad2,6", "iPad2,7":           model = "iPad Mini"
         case "iPad4,4", "iPad4,5", "iPad4,6":           model = "iPad Mini 2"
         case "iPad4,7", "iPad4,8", "iPad4,9":           model = "iPad Mini 3"
         case "iPad5,1", "iPad5,2":                      model = "iPad Mini 4"
-        case "iPad6,11", "iPad6,12":                    model = "iPad 2017"
-
 
         case "iPad6,3", "iPad6,4":                      model = "iPad Pro 9.7"
-        case "iPad6,7", "iPad6,8":                      model = "iPad Pro 12"
-        case "iPad7,1", "iPad7,2":                      model = "iPad Pro 12 v2"
+        case "iPad6,7", "iPad6,8":                      model = "iPad Pro 12.9"
+        case "iPad7,1", "iPad7,2":                      model = "iPad Pro 12.9 v2"
         case "iPad7,3", "iPad7,4":                      model = "iPad Pro 10.5"
 
 
