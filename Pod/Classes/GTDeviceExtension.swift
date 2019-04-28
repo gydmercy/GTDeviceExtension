@@ -58,6 +58,9 @@ extension UIDevice {
         case "iPhone10,1", "iPhone10,4":                model = "iPhone 8"
         case "iPhone10,2", "iPhone10,5":                model = "iPhone 8 Plus"
         case "iPhone10,3", "iPhone10,6":                model = "iPhone X"
+        case "iPhone11,2":                              model = "iPhone Xs"
+        case "iPhone11,4", "iPhone11,6":                model = "iPhone Xs Max"
+        case "iPhone11,8":                              model = "iPhone XR"
 
 
         case "iPad1,1":                                 model = "iPad 1"
@@ -67,16 +70,21 @@ extension UIDevice {
         case "iPad4,1", "iPad4,2", "iPad4,3":           model = "iPad Air"
         case "iPad5,3", "iPad5,4":                      model = "iPad Air 2"
         case "iPad6,11", "iPad6,12":                    model = "iPad 2017"
+        case "iPad7,5", "iPad7,6":                      model = "iPad 2018"
+        case "iPad11,3", "iPad1,4":                     model = "iPad Air 3"
 
         case "iPad2,5", "iPad2,6", "iPad2,7":           model = "iPad Mini"
         case "iPad4,4", "iPad4,5", "iPad4,6":           model = "iPad Mini 2"
         case "iPad4,7", "iPad4,8", "iPad4,9":           model = "iPad Mini 3"
         case "iPad5,1", "iPad5,2":                      model = "iPad Mini 4"
+        case "iPad11,1", "iPad11,2":                    model = "iPad Mini 5"
 
         case "iPad6,3", "iPad6,4":                      model = "iPad Pro 9.7"
         case "iPad6,7", "iPad6,8":                      model = "iPad Pro 12.9"
         case "iPad7,1", "iPad7,2":                      model = "iPad Pro 12.9 v2"
         case "iPad7,3", "iPad7,4":                      model = "iPad Pro 10.5"
+        case "iPad8,1", "iPad8,2", "iPad8,3", "iPad8,4":model = "iPad Pro 11 v3"
+        case "iPad8,5", "iPad8,6", "iPad8,7", "iPad8,8":model = "iPad Pro 12.9 v3"
 
 
         case "i386", "x86_64":                          model = "Simulator"
